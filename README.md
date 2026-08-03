@@ -91,22 +91,6 @@ AI时代有一个隐秘的危险——不是得不到答案，而是不经思考
 
 <br>
 
-## 使用方式
-
-```bash
-# 安装
-npx skills add your-org/socratic-questioning-engine
-
-# 或直接复制到你的Skills目录
-cp -r socratic-questioning-engine ~/.claude/skills/
-```
-
-然后将你的困惑——关于一个概念、一个决定、一个你坚信却说不出理由的信念——交给它。
-
-准备好被追问。准备好在第三或第四轮对话中，忽然看见自己未曾看见的东西。
-
-<br>
-
 ## 设计哲学
 
 ### 一、精神助产士（Cognitive Midwife）
@@ -149,29 +133,24 @@ cp -r socratic-questioning-engine ~/.claude/skills/
 
 <br>
 
-## 理论根基
+## 寻求更深
 
-- **柏拉图对话录**——追问术的原典。游叙弗伦、美诺、拉克斯，每一个都在"我以为我知道"的地方跌倒，在"我其实不知道"的地方站起来
-- **理查德·保罗的批判性思维**——六种追问类型，系统而锋利
-- **弗拉维尔的元认知**——看见自己的看见，思考自己的思考
-- **布鲁纳的脚手架**——临时的支撑，是永久的能力的前奏
-- **维果茨基的最近发展区**——问题的难度，恰好在"跳一跳够得到"的高度
+- [SKILL.md](SKILL.md) — Agent运行时的完整协议
+- [references/](references/) — 柏拉图原文、追问分类学、认知科学理论
 
 <br>
 
 ## 致谢
 
-本引擎的设计灵感与最佳实践来自三个开源项目：
-
-- **[女娲.skill](https://github.com/alchaincyf/nuwa-skill)** —— 多Agent调研、框架蒸馏的范式
-- **[达尔文.skill](https://github.com/alchaincyf/darwin-skill)** —— 9维rubric评估、棘轮机制、人机协同
-- **[花叔设计](https://github.com/alchaincyf/huashu-design)** —— 视觉叙事的高保真方法论
+- **[女娲.skill](https://github.com/alchaincyf/nuwa-skill)** — 多Agent调研、框架蒸馏的范式
+- **[达尔文.skill](https://github.com/alchaincyf/darwin-skill)** — 9维rubric评估、棘轮机制
+- **[花叔设计](https://github.com/alchaincyf/huashu-design)** — 视觉叙事的高保真方法论
 
 女娲造Skill，达尔文磨Skill。本作是这一生态在追问领域的一次实践。
 
 <br>
 
-## 边界与诚实
+## 边界
 
 它不能追问创伤。当痛苦漫上来的时候，追问必须让位给倾听。
 
@@ -181,9 +160,9 @@ cp -r socratic-questioning-engine ~/.claude/skills/
 
 <br>
 
-## 协议
+## License
 
-MIT License · 思想属于追问者，追问属于所有人
+MIT · 思想属于追问者，追问属于所有人
 
 ---
 
