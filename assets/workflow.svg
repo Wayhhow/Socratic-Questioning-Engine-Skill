@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" fill="none">
+    <defs>
+        <linearGradient id="step-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#2d3748"/>
+            <stop offset="100%" style="stop-color:#1a202c"/>
+        </linearGradient>
+        <linearGradient id="connect-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#c9a227;stop-opacity:0.6"/>
+            <stop offset="100%" style="stop-color:#e8d5a3;stop-opacity:0.6"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="1000" height="280" fill="#faf9f6" rx="12"/>
+    
+    <!-- Title -->
+    <text x="500" y="35" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#666">五步诊断引擎 · Agent内部运行</text>
+    
+    <!-- Connector line -->
+    <line x1="110" y1="140" x2="890" y2="140" stroke="#c9a227" stroke-width="1" opacity="0.3" stroke-dasharray="4 4"/>
+    
+    <!-- Step circles and labels -->
+    <!-- Step 1 -->
+    <circle cx="110" cy="140" r="38" fill="url(#step-grad)" stroke="#c9a227" stroke-width="2"/>
+    <text x="110" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c9a227">STEP 01</text>
+    <text x="110" y="150" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">语义</text>
+    <text x="110" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">解构</text>
+    
+    <!-- Arrow 1-2 -->
+    <path d="M 150 140 L 200 140" stroke="url(#connect-grad)" stroke-width="2"/>
+    
+    <!-- Step 2 -->
+    <circle cx="230" cy="140" r="38" fill="url(#step-grad)" stroke="#c9a227" stroke-width="2"/>
+    <text x="230" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c9a227">STEP 02</text>
+    <text x="230" y="150" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">认知</text>
+    <text x="230" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">定位</text>
+    
+    <!-- Arrow 2-3 -->
+    <path d="M 270 140 L 320 140" stroke="url(#connect-grad)" stroke-width="2"/>
+    
+    <!-- Step 3 -->
+    <circle cx="350" cy="140" r="38" fill="url(#step-grad)" stroke="#c9a227" stroke-width="2"/>
+    <text x="350" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c9a227">STEP 03</text>
+    <text x="350" y="150" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">前提</text>
+    <text x="350" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">挖掘</text>
+    
+    <!-- Arrow 3-4 -->
+    <path d="M 390 140 L 440 140" stroke="url(#connect-grad)" stroke-width="2"/>
+    
+    <!-- Step 4 -->
+    <circle cx="470" cy="140" r="38" fill="url(#step-grad)" stroke="#c9a227" stroke-width="2"/>
+    <text x="470" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c9a227">STEP 04</text>
+    <text x="470" y="150" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">策略</text>
+    <text x="470" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#f0ead8">选择</text>
+    
+    <!-- Arrow 4-5 -->
+    <path d="M 510 140 L 560 140" stroke="url(#connect-grad)" stroke-width="2"/>
+    
+    <!-- Step 5 -->
+    <circle cx="590" cy="140" r="38" fill="#c9a227" stroke="#c9a227" stroke-width="2"/>
+    <text x="590" y="135" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#1a1a2e">STEP 05</text>
+    <text x="590" y="150" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1a1a2e">退出</text>
+    <text x="590" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="600" fill="#1a1a2e">升华</text>
+    
+    <!-- Arrow 5-out -->
+    <path d="M 630 140 L 680 140" stroke="url(#connect-grad)" stroke-width="2"/>
+    
+    <!-- Output -->
+    <rect x="690" y="115" width="100" height="50" rx="8" fill="#ffffff" stroke="#c9a227" stroke-width="1.5"/>
+    <text x="740" y="137" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="600" fill="#1a1a2e">输出</text>
+    <text x="740" y="152" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">追问 / 点拨</text>
+    
+    <!-- Bottom descriptions -->
+    <text x="110" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">识别概念类型</text>
+    <text x="110" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">事实/逻辑/价值/方法</text>
+    
+    <text x="230" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">判断认知水平</text>
+    <text x="230" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">初学者/一知半解/偏见</text>
+    
+    <text x="350" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">揭示隐藏假设</text>
+    <text x="350" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">因果/代表性/价值</text>
+    
+    <text x="470" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">选择追问策略</text>
+    <text x="470" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">澄清/归谬/反向/溯源</text>
+    
+    <text x="590" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">提炼元认知</text>
+    <text x="590" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">命名方法/迁移工具</text>
+    
+    <text x="740" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">返回对话</text>
+    <text x="740" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">[当前阶段]标签</text>
+</svg>
