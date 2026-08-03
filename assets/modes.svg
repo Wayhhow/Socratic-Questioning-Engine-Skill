@@ -1,19 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" fill="none">
-    <defs>
-        <linearGradient id="grad-60" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#1a1a2e"/>
-            <stop offset="100%" style="stop-color:#2d3748"/>
-        </linearGradient>
-        <linearGradient id="grad-30" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#2d3748"/>
-            <stop offset="100%" style="stop-color:#4a5568"/>
-        </linearGradient>
-        <linearGradient id="grad-10" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#4a5568"/>
-            <stop offset="100%" style="stop-color:#718096"/>
-        </linearGradient>
-    </defs>
-    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" fill="none">
     <!-- Background -->
     <rect width="900" height="240" fill="#faf9f6" rx="12"/>
     
@@ -21,13 +6,13 @@
     <text x="450" y="30" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#666">三种模式的动态平衡</text>
     
     <!-- Mode 1 - 60% -->
-    <rect x="40" y="60" width="480" height="140" rx="12" fill="url(#grad-60)"/>
-    <rect x="40" y="60" width="480" height="140" rx="12" fill="#c9a227" opacity="0.05"/>
+    <rect x="40" y="60" width="480" height="140" rx="12" fill="#1a1a2e"/>
+    <rect x="40" y="60" width="480" height="140" rx="12" stroke="#c9a227" stroke-width="1.5" fill="none"/>
     
     <text x="70" y="95" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#c9a227">60%</text>
     <text x="70" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">纯追问模式</text>
-    <text x="70" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户正在思考时 &nbsp;·&nbsp; 只通过提问推进</text>
-    <text x="70" y="165" font-family="sans-serif" font-size="10" fill="#a0a0a0">每次最多两个问题 &nbsp;·&nbsp; 不直接给答案</text>
+    <text x="70" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户正在思考时 · 只通过提问推进</text>
+    <text x="70" y="165" font-family="sans-serif" font-size="10" fill="#a0a0a0">每次最多两个问题 · 不直接给答案</text>
     <text x="70" y="185" font-family="sans-serif" font-size="9" fill="#c9a227">澄清 / 归谬 / 反向 / 溯源 / 类比 / 例外</text>
     
     <!-- Decorative question marks -->
@@ -35,8 +20,8 @@
     <text x="440" y="160" font-family="Georgia, serif" font-size="40" fill="#c9a227" opacity="0.1">?</text>
     
     <!-- Mode 2 - 30% -->
-    <rect x="540" y="60" width="170" height="140" rx="12" fill="url(#grad-30)"/>
-    <rect x="540" y="60" width="170" height="140" rx="12" fill="#c9a227" opacity="0.08"/>
+    <rect x="540" y="60" width="170" height="140" rx="12" fill="#2d3748"/>
+    <rect x="540" y="60" width="170" height="140" rx="12" stroke="#e8d5a3" stroke-width="1.5" fill="none"/>
     
     <text x="570" y="95" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#e8d5a3">30%</text>
     <text x="570" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">脚手架</text>
@@ -45,7 +30,9 @@
     <text x="570" y="185" font-family="sans-serif" font-size="9" fill="#e8d5a3">立即撤回追问</text>
     
     <!-- Mode 3 - 10% -->
-    <rect x="730" y="60" width="130" height="140" rx="12" fill="url(#grad-10)"/>
+    <rect x="730" y="60" width="130" height="140" rx="12" fill="#4a5568"/>
+    <rect x="730" y="60" width="130" height="140" rx="12" stroke="#cbd5e0" stroke-width="1.5" fill="none"/>
+    
     <text x="760" y="95" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#cbd5e0">10%</text>
     <text x="760" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">元认知</text>
     <text x="760" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户实现顿悟时触发</text>
@@ -53,5 +40,5 @@
     <text x="760" y="185" font-family="sans-serif" font-size="9" fill="#cbd5e0">克制赞美</text>
     
     <!-- Bottom description -->
-    <text x="450" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#888">动态切换 &nbsp;·&nbsp; 不僵硬执行 &nbsp;·&nbsp; 始终适配用户当前状态</text>
+    <text x="450" y="225" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#888">动态切换 · 不僵硬执行 · 始终适配用户当前状态</text>
 </svg>

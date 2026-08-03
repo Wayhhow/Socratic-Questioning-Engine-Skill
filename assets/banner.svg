@@ -1,56 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none">
-    <!-- Background gradient -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" fill="none">
     <defs>
-        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#0f0f1a"/>
-            <stop offset="100%" style="stop-color:#1a1a2e"/>
-        </linearGradient>
-        <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#c9a227"/>
-            <stop offset="100%" style="stop-color:#e8d5a3"/>
-        </linearGradient>
-        <linearGradient id="question-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style="stop-color:#2d3748"/>
-            <stop offset="100%" style="stop-color:#1a202c"/>
+        <linearGradient id="bg-grad" x1="0" y1="0" x2="1200" y2="400">
+            <stop offset="0%" stop-color="#0f0f1a"/>
+            <stop offset="100%" stop-color="#1a1a2e"/>
         </linearGradient>
     </defs>
     
     <!-- Background -->
     <rect width="1200" height="400" fill="url(#bg-grad)"/>
     
-    <!-- Decorative circles (question marks abstract) -->
+    <!-- Decorative circles -->
     <circle cx="100" cy="80" r="40" fill="#c9a227" opacity="0.08"/>
     <circle cx="180" cy="60" r="25" fill="#c9a227" opacity="0.05"/>
     <circle cx="1100" cy="320" r="60" fill="#c9a227" opacity="0.06"/>
     <circle cx="1050" cy="350" r="35" fill="#c9a227" opacity="0.04"/>
     
-    <!-- Central question mark as art -->
+    <!-- Central question mark -->
     <text x="600" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="180" fill="#c9a227" opacity="0.15">?</text>
     
     <!-- Abstract thought lines -->
     <path d="M 200 280 Q 300 250 400 280 Q 500 310 600 280" stroke="#c9a227" stroke-width="1" opacity="0.2" fill="none"/>
     <path d="M 600 280 Q 700 250 800 280 Q 900 310 1000 280" stroke="#c9a227" stroke-width="1" opacity="0.15" fill="none"/>
     
-    <!-- Left decorative elements - inquiry steps -->
+    <!-- Left decorative bars -->
     <rect x="80" y="160" width="4" height="80" rx="2" fill="#c9a227" opacity="0.3"/>
     <rect x="90" y="180" width="4" height="60" rx="2" fill="#c9a227" opacity="0.2"/>
     <rect x="100" y="200" width="4" height="40" rx="2" fill="#c9a227" opacity="0.15"/>
     
-    <!-- Right decorative elements -->
+    <!-- Right decorative bars -->
     <rect x="1110" y="160" width="4" height="80" rx="2" fill="#c9a227" opacity="0.3"/>
     <rect x="1100" y="180" width="4" height="60" rx="2" fill="#c9a227" opacity="0.2"/>
     <rect x="1090" y="200" width="4" height="40" rx="2" fill="#c9a227" opacity="0.15"/>
     
     <!-- Title -->
     <text x="600" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#f0ead8">苏格拉底式追问引擎</text>
-    <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#c9a227" letter-spacing="3">S O C R A T I C &nbsp; Q U E S T I O N I N G &nbsp; E N G I N E</text>
+    <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#c9a227" letter-spacing="3">S O C R A T I C   Q U E S T I O N I N G   E N G I N E</text>
     
     <!-- Subtitle -->
     <text x="600" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#a0a0a0" font-style="italic">"答案不在舌尖上，而在思考的至深处。"</text>
     
     <!-- Bottom stats bar -->
     <rect x="350" y="330" width="500" height="1" fill="#c9a227" opacity="0.3"/>
-    <text x="600" y="360" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#808080">60% 追问 &nbsp;·&nbsp; 30% 脚手架 &nbsp;·&nbsp; 10% 元认知</text>
+    <text x="600" y="360" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#808080">60% 追问  ·  30% 脚手架  ·  10% 元认知</text>
     
     <!-- Corner accents -->
     <path d="M 0 0 L 60 0 L 0 60 Z" fill="#c9a227" opacity="0.1"/>
