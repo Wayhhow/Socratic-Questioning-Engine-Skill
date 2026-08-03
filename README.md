@@ -36,7 +36,7 @@
 
 <br>
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Wayhhow/Socratic-Questioning-Engine-Skill&type=Date)](https://star-history.com/#Wayhhow/Socratic-Questioning-Engine-Skill&Date)
+[![GitHub stars](https://img.shields.io/github/stars/Wayhhow/Socratic-Questioning-Engine-Skill?style=social)](https://github.com/Wayhhow/Socratic-Questioning-Engine-Skill)
 
 </div>
 
