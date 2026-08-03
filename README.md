@@ -32,22 +32,13 @@
 
 <br>
 
-[看效果](#追问示例) · [交互模式](#三种模式) · [安装使用](#安装) · [五步引擎](#五步诊断引擎) · [致谢](#致谢)
+[追问示例](#追问示例) · [交互模式](#交互模式) · [安装使用](#安装) · [五步引擎](#五步诊断引擎) · [致谢](#致谢)
 
 <br>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Wayhhow/Socratic-Questioning-Engine-Skill&type=Date)](https://star-history.com/#Wayhhow/Socratic-Questioning-Engine-Skill&Date)
 
 </div>
-
----
-
-<!-- 视觉：三种模式 -->
-<p align="center">
-  <a href="#三种模式">
-    <img src="assets/modes.svg" alt="三种交互模式" width="95%"/>
-  </a>
-</p>
 
 ---
 
@@ -87,8 +78,6 @@
 
 ## 不是什么，是什么
 
-<p align="center">
-
 | | 它不是 | 它是 |
 |:---:|:---|:---|
 | 🎭 | 一个问答机器 | 一场思想的助产术 |
@@ -96,13 +85,9 @@
 | 📋 | 一套需要记忆的方法论 | 一种可以被激活的认知姿态 |
 | ⚡ | 一个给你鱼的人 | 一个让你相信自己本来就擅长钓鱼的人 |
 
-</p>
-
 ---
 
 ## 为什么这个世界需要它
-
-<div align="center">
 
 | 直接回答式AI | 苏格拉底式追问引擎 |
 |:---|:---|
@@ -110,8 +95,6 @@
 | 强化依赖性 | 培养独立性 |
 | 答案转瞬即逝 | 思维工具永久留存 |
 | "AI说得很清楚" | **"原来是我自己想通了"** |
-
-</div>
 
 <br>
 
@@ -121,18 +104,35 @@ AI时代最隐秘的危险不是"得不到答案"，<br>而是"不经思考就�
 
 ---
 
-<!-- 视觉：五步引擎流程图 -->
+## 交互模式
+
+<!-- 视觉：三种模式 -->
 <p align="center">
-  <a href="#五步诊断引擎">
-    <img src="assets/workflow.svg" alt="五步诊断引擎" width="95%"/>
-  </a>
+  <img src="assets/modes.svg" alt="三种交互模式" width="95%"/>
 </p>
+
+<br>
+
+<div align="center">
+
+| 模式 | 占比 | 触发条件 | 核心行为 |
+|:---|:---:|:---|:---|
+| **纯追问模式** | 60% | 用户能思考但需方向 | 仅通过提问推进，每次最多2个问题 |
+| **支架式点拨** | 30% | 连续3轮"不知道" | 提供最小必要信息后立即撤回 |
+| **元认知总结** | 10% | 用户实现顿悟 | 引导回顾思考路径，提炼思维工具 |
+
+</div>
 
 ---
 
 ## 五步诊断引擎
 
-<p align="center"><i>回应用户之前，内部完成的安静仪式。</i></p>
+*回应用户之前，内部完成的安静仪式。*
+
+<!-- 视觉：五步引擎流程图 -->
+<p align="center">
+  <img src="assets/workflow.svg" alt="五步诊断引擎" width="95%"/>
+</p>
 
 <br>
 
@@ -274,7 +274,7 @@ git clone https://github.com/Wayhhow/Socratic-Questioning-Engine-Skill.git \
 
 本引擎的设计灵感与最佳实践来自三个开源项目：
 
-<p align="center">
+<div align="center">
 
 | | 女娲.skill | 达尔文.skill | 花叔设计 |
 |:---:|:---:|:---:|:---:|
@@ -282,7 +282,7 @@ git clone https://github.com/Wayhhow/Socratic-Questioning-Engine-Skill.git \
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | | 9维rubric、棘轮机制 | |
 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | | | 视觉叙事的高保真方法论 |
 
-</p>
+</div>
 
 <br>
 
@@ -292,13 +292,13 @@ git clone https://github.com/Wayhhow/Socratic-Questioning-Engine-Skill.git \
 
 ## 边界与诚实
 
-<p align="center"><i>
+<div align="center"><i>
 
 它不能追问创伤。当痛苦漫上来的时候，追问必须让位给倾听。
 它不能审讯。被逼迫的思考不是思考，是辩护。
 它不能拯救。思考可以是解放，也可以是这个世界上最孤独的事情——而追问者只是那个陪你走一程的人。
 
-</i></p>
+</i></div>
 
 ---
 
