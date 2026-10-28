@@ -16,7 +16,7 @@
     <circle cx="1050" cy="350" r="35" fill="#c9a227" opacity="0.04"/>
     
     <!-- Central question mark -->
-    <text x="600" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="180" fill="#c9a227" opacity="0.15">?</text>
+    <text x="905" y="265" text-anchor="middle" font-family="Georgia, serif" font-size="170" fill="#c9a227" opacity="0.13">?</text>
     
     <!-- Abstract thought lines -->
     <path d="M 200 280 Q 300 250 400 280 Q 500 310 600 280" stroke="#c9a227" stroke-width="1" opacity="0.2" fill="none"/>
@@ -34,14 +34,14 @@
     
     <!-- Title -->
     <text x="600" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#f0ead8">苏格拉底式追问引擎</text>
-    <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#c9a227" letter-spacing="3">S O C R A T I C   Q U E S T I O N I N G   E N G I N E</text>
-    
+    <text x="600" y="150" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#c9a227" letter-spacing="6">SOCRATIC QUESTIONING ENGINE</text>
+
     <!-- Subtitle -->
-    <text x="600" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#a0a0a0" font-style="italic">"答案不在舌尖上，而在思考的至深处。"</text>
+    <text x="600" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#a0a0a0">「答案不在舌尖上，而在思考的至深处。」</text>
     
     <!-- Bottom stats bar -->
     <rect x="350" y="330" width="500" height="1" fill="#c9a227" opacity="0.3"/>
-    <text x="600" y="360" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#808080">60% 追问  ·  30% 脚手架  ·  10% 元认知</text>
+    <text x="600" y="360" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#808080">60% 追问  ·  30% 支架式点拨  ·  10% 元认知</text>
     
     <!-- Corner accents -->
     <path d="M 0 0 L 60 0 L 0 60 Z" fill="#c9a227" opacity="0.1"/>

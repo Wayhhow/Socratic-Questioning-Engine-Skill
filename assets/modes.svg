@@ -10,10 +10,11 @@
     <rect x="40" y="60" width="480" height="140" rx="12" stroke="#c9a227" stroke-width="1.5" fill="none"/>
     
     <text x="70" y="95" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#c9a227">60%</text>
+    <rect x="70" y="103" width="150" height="3" rx="1.5" fill="#c9a227" opacity="0.45"/>
     <text x="70" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">纯追问模式</text>
     <text x="70" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户正在思考时 · 只通过提问推进</text>
-    <text x="70" y="165" font-family="sans-serif" font-size="10" fill="#a0a0a0">每次最多两个问题 · 不直接给答案</text>
-    <text x="70" y="185" font-family="sans-serif" font-size="9" fill="#c9a227">澄清 / 归谬 / 反向 / 溯源 / 类比 / 例外</text>
+    <text x="70" y="165" font-family="sans-serif" font-size="10" fill="#a0a0a0">每轮一个主问题 · 不直接给答案</text>
+    <text x="70" y="185" font-family="sans-serif" font-size="9" fill="#c9a227">澄清 · 归谬 · 反向 · 溯源 · 类比 · 例外 ｜ 证据 · 元问题</text>
     
     <!-- Decorative question marks -->
     <text x="480" y="120" font-family="Georgia, serif" font-size="60" fill="#c9a227" opacity="0.15">?</text>
@@ -24,8 +25,9 @@
     <rect x="540" y="60" width="170" height="140" rx="12" stroke="#e8d5a3" stroke-width="1.5" fill="none"/>
     
     <text x="570" y="95" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#e8d5a3">30%</text>
-    <text x="570" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">脚手架</text>
-    <text x="570" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户连续卡住3轮时触发</text>
+    <rect x="570" y="101" width="75" height="3" rx="1.5" fill="#e8d5a3" opacity="0.5"/>
+    <text x="570" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">支架式点拨</text>
+    <text x="570" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户第3次卡住时触发</text>
     <text x="570" y="165" font-family="sans-serif" font-size="10" fill="#a0a0a0">提供最小必要信息</text>
     <text x="570" y="185" font-family="sans-serif" font-size="9" fill="#e8d5a3">立即撤回追问</text>
     
@@ -34,6 +36,7 @@
     <rect x="730" y="60" width="130" height="140" rx="12" stroke="#cbd5e0" stroke-width="1.5" fill="none"/>
     
     <text x="760" y="95" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#cbd5e0">10%</text>
+    <rect x="760" y="100" width="25" height="3" rx="1.5" fill="#cbd5e0" opacity="0.6"/>
     <text x="760" y="120" font-family="sans-serif" font-size="13" font-weight="600" fill="#f0ead8">元认知</text>
     <text x="760" y="145" font-family="sans-serif" font-size="10" fill="#a0a0a0">用户实现顿悟时触发</text>
     <text x="760" y="165" font-family="sans-serif" font-size="10" fill="#a0a0a0">引导反思思考路径</text>

@@ -60,21 +60,21 @@
     <text x="740" y="152" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">追问 / 点拨</text>
     
     <!-- Bottom descriptions -->
-    <text x="110" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">识别概念类型</text>
-    <text x="110" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">事实/逻辑/价值/方法</text>
+    <text x="110" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">识别概念类型</text>
+    <text x="110" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8a8a8a">事实/逻辑/价值/方法</text>
     
-    <text x="230" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">判断认知水平</text>
-    <text x="230" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">初学者/一知半解/偏见</text>
+    <text x="230" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">判断认知水平</text>
+    <text x="230" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8a8a8a">初学者/一知半解/偏见/突破边缘</text>
     
-    <text x="350" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">揭示隐藏假设</text>
-    <text x="350" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">因果/代表性/价值</text>
+    <text x="350" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">揭示隐藏假设</text>
+    <text x="350" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8a8a8a">因果/代表性/时间/价值</text>
     
-    <text x="470" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">选择追问策略</text>
-    <text x="470" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">澄清/归谬/反向/溯源</text>
+    <text x="470" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">选择追问策略</text>
+    <text x="470" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8a8a8a">澄清/归谬/溯源/证据</text>
     
-    <text x="590" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">提炼元认知</text>
-    <text x="590" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">命名方法/迁移工具</text>
+    <text x="590" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">提炼元认知</text>
+    <text x="590" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8a8a8a">命名方法/迁移工具</text>
     
-    <text x="740" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">返回对话</text>
-    <text x="740" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#aaa">[当前阶段]标签</text>
+    <text x="740" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">返回对话</text>
+    <text x="740" y="225" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#8a8a8a">[当前阶段]标签</text>
 </svg>
